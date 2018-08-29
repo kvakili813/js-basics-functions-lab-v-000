@@ -23,7 +23,7 @@ function calculatesFarePrice(start, destination){
   if(ride < 400) {
     return 0
   } else if (ride > 400 && ride < 2000) {
-    return(ride * .02)
+    return (distance - 400) * 0.02
   } else if (ride > 2000 && ride < 2500) {
     return(25)
   } else if (ride > 2500) {
